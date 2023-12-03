@@ -4,8 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project-Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
 </head>
 <body>
     <h2>Welcome to ARK Cafe House</h2>
+    <form>
+        <label for="name">First Name <input id="name" type="text" placeholder="First Name">
+        </label>
+        <label for="name">Last Name <input id="name" type="text" placeholder="Last Name">
+        </label>
+        <label for="email">Email <input id="email" type="email" placeholder="asibur@gmail.com">
+        </label>
+        <label for="number">Number <input id="number" type="number" placeholder="01700011100">
+        </label>
+
+            <fieldset>
+                <legend>Manu</legend>
+                <fieldset>
+                    <legend>Fast Food</legend>
+                    <label for="rich"> <input type="radio" name="Fast Food" id="rich">Fried Rich</label>
+                    <label for="chicken"> <input type="radio" name="Fast Food" id="chicken">chicken fry</label>
+                    <label for="burger"> <input type="radio" name="Fast Food" id="burger">Burger</label>
+                    <label for="sandwich"> <input type="radio" name="Fast Food" id="sandwich">Sandwich</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Drinks</legend>
+                    <label for="cocacola"><input type="checkbox" name="Drinks" id="cocacola">Cocacola</label>
+                    <label for="fanta"><input type="checkbox" name="Drinks" id="fanta">Fanta</label>
+                    <label for="mojo"><input type="checkbox" name="Drinks" id="mojo">Mojo</label>
+                    <label for="drinko"><input type="checkbox" name="Drinks" id="drinko">Drinko</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Combo Package</legend>
+                    <textarea name="" id="" cols="30" rows="3"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </fieldset>
+    </form>
 </body>
 </html>
